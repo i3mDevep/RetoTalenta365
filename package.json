@@ -1,0 +1,25 @@
+{
+  "name": "retotalenta365",
+  "version": "1.0.0",
+  "description": "Reto talenta356 nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "NODE_ENV=production node index"
+  },
+  "author": "Michael Steven Atehortua Henao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
